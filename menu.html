@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Foodie's Paradise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>🍔 Foodie's Paradise</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart 🛒</a>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2 style="text-align:center">Our Menu</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://www.timeoutdubai.com/cloud/timeoutdubai/2025/01/20/LushBurger_M-Brothers_May2022_37-1536x1146.jpg"
+                    alt="Burger">
+                <h3>Cheese Burger</h3>
+                <p>$5.99</p>
+                <button onclick="addToCart('Cheese Burger', 5.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://atsloanestable.com/wp-content/uploads/2023/06/new-york-style-pizza2.jpg" alt="Pizza">
+                <h3>Pepperoni Pizza</h3>
+                <p>$8.99</p>
+                <button onclick="addToCart('Pepperoni Pizza', 8.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://www.foodandwine.com/thmb/0SHv4wzGz7OBOcYtVbRWQeuR2CQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg"
+                    alt="Pasta">
+                <h3>Burger</h3>
+                <p>$6.49</p>
+                <button onclick="addToCart('Burger', 7.49)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://happietrio.com/wp-content/uploads/2019/04/MuttonBiryani2-768x1155.jpg" alt="Pasta">
+                <h3>MuttonBiryan</h3>
+                <p>$10.49</p>
+                <button onclick="addToCart('MuttonBiryan', 7.49)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://icecreamfromscratch.com/wp-content/uploads/2022/02/Oreo-Ice-Cream-1.2.jpg"
+                    alt="Pasta">
+                <h3>Ice creame</h3>
+                <p>$4.49</p>
+                <button onclick="addToCart('Ice creame ', 7.49)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Foodie's Paradise</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
